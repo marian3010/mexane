@@ -55,6 +55,10 @@ nav a {
 .background-soluciones {
 	background-color: #d9f2e6;
 }
+.background-inicial {
+	background-color: #9fdf9f;
+}
+
 div#ZoomIn {
 	transition: all 1s;
 }
