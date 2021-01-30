@@ -50,13 +50,13 @@ nav a {
 	list-style-type: none;
 }
 .background-nosotros {
-	background-color: #ffdd99;
+	background-color: #ffffe6;
 }
 .background-soluciones {
-	background-color: #d9f2e6;
+	background-color: #e6f0ff;
 }
 .background-inicial {
-	background-color: #9fdf9f;
+	background-color: #ecf9f2;
 }
 
 div#ZoomIn {
@@ -73,4 +73,8 @@ div#ZoomOut img:hover{
 }
 .nosotros {
 	font-size: 1.5rem;
+}
+
+.imagen-centrada {
+	
 }
