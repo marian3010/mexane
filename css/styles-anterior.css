@@ -7163,15 +7163,22 @@ a.text-dark:hover, a.text-dark:focus {
   color: white; }
 
 section {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  background-color: #e1e1ea; }
   section div {
+    padding-top: 0.5rem;
     color: black;
-    font-family: karla,sans-serif; }
+    /*background-color: $color-primario;*/ }
+    section div img {
+      width: 100%;
+      height: 100%;
+      background-color: transparent; }
 
 footer {
   font-family: karla,sans-serif;
   font-size: 1.2rem;
-  background-color: #6e8091;
+  /*background-color: #6e8091;*/
+  background-color: #e1e1ea;
   text-align: center;
   background-image: linear-gradient(darkgrey, lightgrey);
   height: 50px; }
@@ -7183,29 +7190,27 @@ header nav a:hover {
 nav a {
   padding-left: 1.5rem; }
 
+.calesita-tit {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: karla,sans-serif; }
+
+.calesita-subtit {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: karla,sans-serif; }
+
 .contacto {
   padding-top: 0px;
   text-align: center;
   font-size: 1.5rem;
-  /*background-color: $color-secundario;*/ }
+  background-color: #e1e1ea; }
 
 .lista-tel {
   list-style-type: none; }
 
-.background-nosotros {
-  background-color: #ffffe6; }
-
-.background-soluciones {
-  background-color: #e6f0ff; }
-
-.background-inicial {
-  background-color: #ecf9f2; }
-
-.nosotros {
-  font-size: 1.5rem; }
-
 .articulos-nosotros {
-  background-color: #ffffe6;
+  background-color: #ccddff;
   padding-left: 1rem;
   font-family: karla,sans-serif;
   font-color: white; }
@@ -7229,19 +7234,16 @@ nav a {
 .btn--linkedin {
   background-color: #0e76a8;
   text-align: center;
-  border-radius: 100px;
   border-color: #0e76a8; }
 
 .btn--facebook {
   background-color: #3a5795;
   text-align: center;
-  border-radius: 100px;
   border-color: #3a5795; }
 
 .btn--send-mail {
   background-color: #C25E30;
   text-align: center;
-  border-radius: 100px;
   border-color: #C25E30; }
 
 .fondo-soporte {
@@ -7249,13 +7251,3 @@ nav a {
 
 .fondo-soluciones {
   background: #88cc00; }
-
-div#ZoomIn {
-  transition: all 1s; }
-  div#ZoomIn img:hover {
-    transform: scale(0.6); }
-
-div#ZoomOut {
-  transition: all 1s; }
-  div#ZoomOut img:hover {
-    transform: scale(1.3); }

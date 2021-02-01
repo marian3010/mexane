@@ -1,0 +1,119 @@
+@import "scss/bootstrap.scss";
+
+.color-gris {
+	color: #4e5663;
+}
+.color-blanco {
+	color: white;
+}
+$color-primario: #ffffff;
+$color-secundario: #e1e1ea; 
+$color-nuevo: #ffa366;
+$color-verde: #669900;
+
+section {
+	margin-top: 1rem;
+	div {
+	color: black;
+	font-family: karla,sans-serif;
+	}
+}
+
+footer {
+	font-family: karla,sans-serif;
+	font-size: 1.2rem;
+	background-color: #6e8091;
+	text-align: center;
+	background-image: linear-gradient(darkgrey, lightgrey);
+	height: 50px;
+}
+
+header nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
+nav a {
+	padding-left: 1.5rem;
+}
+
+.contacto {
+	padding-top: 0px;
+	text-align: center;
+	font-size: 1.5rem;
+	/*background-color: $color-secundario;*/
+}
+.lista-tel {
+	list-style-type: none;
+}
+.background-nosotros {
+	background-color: #ffffe6;
+}
+.background-soluciones {
+	background-color: #e6f0ff;
+}
+.background-inicial {
+	background-color: #ecf9f2;
+}
+.nosotros {
+	font-size: 1.5rem;
+}
+.articulos-nosotros {
+	background-color: #ffffe6;
+	padding-left: 1rem;
+	font-family: karla,sans-serif;
+	font-color: white;
+		.articulos-nosotros__titulo {
+			font-size: 24px;
+			font-weight: 800px;
+		}	
+		.articulos-nosotros__texto {
+			font-size: 18px;
+			font-weight: 400px;
+		}
+		.articulos-nosotros__imagen {
+			max-width:600px;
+			height:100%;
+			padding-bottom: 1rem;	
+		}
+}
+.soluciones {
+	.soluciones_imagenes {
+		max-height: 155px;
+	}
+	.soluciones_imasoft {
+		max-height: 160px;
+	}
+}
+$redessociales: (
+        linkedin: #0e76a8,
+        facebook:  #3a5795,
+        send-mail: #C25E30
+); 
+@each $redsocial, $color in $redessociales {
+   .btn--#{$redsocial} {
+       background-color: $color;
+       text-align: center;
+       border-radius: 100px;
+       border-color: $color;
+   }
+}
+.fondo-soporte {
+	background: darken($color-nuevo,6);
+}
+.fondo-soluciones {
+	background: lighten($color-verde,10);
+}
+
+div#ZoomIn {
+	transition: all 1s;
+	img:hover{
+	transform: scale(0.6);
+	}
+}
+
+div#ZoomOut {
+	transition: all 1s;
+	img:hover{
+	transform: scale(1.3);
+	}
+}
