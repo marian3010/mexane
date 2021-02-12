@@ -6,6 +6,7 @@
 .color-blanco {
 	color: white;
 }
+
 $color-primario: #ffffff;
 $color-secundario: #e1e1ea; 
 $color-nuevo: #ffa366;
@@ -28,19 +29,23 @@ footer {
 	height: 50px;
 }
 
-header nav a:hover {
+.menu {
+	nav a:hover {
 	color: red;
 	text-decoration: underline;
-}
-nav a {
+	}
+	nav a {
 	padding-left: 1.5rem;
+	}
 }
 
 .contacto {
 	padding-top: 0px;
 	text-align: center;
 	font-size: 1.5rem;
-	/*background-color: $color-secundario;*/
+	@media (max-width: 767px){
+		font-size: 14px;
+	}
 }
 .lista-tel {
 	list-style-type: none;
@@ -56,6 +61,9 @@ nav a {
 }
 .nosotros {
 	font-size: 1.5rem;
+}
+.back-top {
+	font-size: 1rem;
 }
 .articulos-nosotros {
 	background-color: #ffffe6;
