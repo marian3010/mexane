@@ -44,7 +44,7 @@ footer {
 }
 .footer-celu {
 	@media (max-width: 767px){
-		font-size:14px;
+		font-size:12px;
 	}
 }
 .lista-tel {
@@ -67,57 +67,12 @@ footer {
 	font-size: 1.5rem;
 }
 .back-top {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color: red;
+	padding-bottom: 1rem;
 	a:hover {
 		color: red;
 	}
-}
-.articulos-nosotros {
-	background-color: #ffffe6;
-	padding-left: 1rem;
-	font-family: karla,sans-serif;
-	font-color: white;
-		.articulos-nosotros__titulo {
-			font-size: 24px;
-			font-weight: 800px;
-		}	
-		.articulos-nosotros__texto {
-			font-size: 18px;
-			font-weight: 400px;
-		}
-		.articulos-nosotros__imagen {
-			max-width:600px;
-			height:100%;
-			padding-bottom: 1rem;	
-		}
-}
-.soluciones {
-	.soluciones_imagenes {
-		max-height: 155px;
-	}
-	.soluciones_imasoft {
-		max-height: 160px;
-	}
-}
-$redessociales: (
-        linkedin: #0e76a8,
-        facebook:  #3a5795,
-        send-mail: #C25E30
-); 
-@each $redsocial, $color in $redessociales {
-   .btn--#{$redsocial} {
-       background-color: $color;
-       text-align: center;
-       border-radius: 100px;
-       border-color: $color;
-   }
-}
-.fondo-soporte {
-	background: darken($color-nuevo,6);
-}
-.fondo-soluciones {
-	background: lighten($color-verde,10);
 }
 
 div#ZoomIn {
